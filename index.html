@@ -1,0 +1,33 @@
+<!--@author : Hanafi Ulin Nuha-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Challenge 2 BEJS">
+    <title>Banking System</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Banking System</h1>
+    <hr>
+    <div>
+        <p>Saldo Sekarang: <span id="jumlahSaldo">Rp. 0.00</span></p>
+    </div>
+    <table>
+        <tr>
+            <td><label for="jumlahDepo">Jumlah Deposit:</label></td>
+            <td><input type="number" id="jumlahDepo" min="0"></td>
+            <td><button id="depositBtn">Deposit</button></td>
+        </tr>
+        <tr>
+            <td><label for="jumlahTarik">Jumlah Penarikan:</label></td>
+            <td><input type="number" id="jumlahTarik" min="0"></td>
+            <td><button id="withdrawBtn">Penarikan</button></td>
+        </tr>
+    </table>
+    <script src="banking_system.js"></script>
+</body>
+</html>
